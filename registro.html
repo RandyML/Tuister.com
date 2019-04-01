@@ -1,0 +1,45 @@
+
+	<div class="container">
+		<div class="col-md-6 offser-md-3">
+			<div class="row">
+				<div class="input-group flex-nowrap">
+					<input type="text"  name="name" class="form-control" placeholder="Nombre Completo" required="true" ng-model="usuario.name">
+                </div> 
+			</div>
+			<div class="row">
+				<div class="input-group flex-nowrap">
+					<input type="email" name="email" class="form-control" placeholder="Correo" required="true" ng-model="usuario.email">
+				</div> 
+			</div>
+			<div class="row">
+				<div class="input-group flex-nowrap">
+					<input type="text" name="nickname" class="form-control" placeholder="Nombre de usuario" required="true" ng-model="usuario.nickname">	
+				</div> 
+			</div>
+			<div class="row">
+				<div class="input-group flex-nowrap">
+					<input id="p1" type="password" name="password" class="form-control" placeholder="Contraseña" required="true" ng-model="usuario.password">		
+				</div> 
+			</div>
+			<div class="row">
+				<div class="input-group flex-nowrap">
+					<input id="p2" type="password" name="password2" class="form-control" placeholder="Confirmar contraseña" required="true" ng-model="comprobar.password">	
+				</div> 
+			</div>
+			<div class="row">
+				<div class="input-group flex-nowrap">
+					<button type="submit" class="btn btn-primary btn-lg btn-block" ng-click="crearUsuario()">Crear cuenta</button>
+				</div> 
+				<div class="row">
+					<div class="col-md-6 offset-md-3">
+						<div class="alert alert-primary" role="alert">
+							<a href="#/login">Iniciar Sesion</a>
+						</div>
+					</div>    
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
